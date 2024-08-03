@@ -9,8 +9,9 @@ my_dict.update({'Ulya': 1992,
                 'Alex': 1991,
                 'Vitya': 1990})
 print(my_dict)
-my_dict.pop('Alex')
+a = my_dict.pop('Alex')
 print(my_dict)
+print(a)
 print(my_dict.get('vasya'))
 print(my_dict.get('vasya', 'Такого ключя нет'))
 del my_dict['book']
